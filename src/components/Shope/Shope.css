@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
     padding: 0 5%;
+    position: relative;
 }
 .products-containe{
     display: grid;
@@ -36,4 +37,11 @@
 }
 .btn-cart:hover{
     background-color: #ffcd70;
+}
+
+.cart-container{
+    background-color: #ffcd70;
+    text-align: center;
+    position: sticky;
+    top: 0;
 }
